@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-8 text-blue-400">
           About Me
         </h2>
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-justify"> {/* Added text-justify */}
           <p className="text-lg mb-6">
             I'm <span className="font-semibold">Raju S</span>, a passionate and dedicated Computer Science student specializing in Data Science.
             With hands-on experience in web development, software solutions, and problem-solving, I thrive on building innovative and impactful digital experiences.
@@ -24,7 +24,7 @@ const About = () => {
             I actively participate in tech workshops and conferences, presenting research on IoT-based healthcare solutions at ICONDEEPCOM. 
             I am always eager to explore new technologies, collaborate on projects, and contribute to the tech community.
           </p>
-          <p className="text-lg font-semibold text-blue-300">
+          <p className="text-lg font-semibold text-blue-300 text-center"> {/* Center-align the call-to-action */}
             Let's connect and innovate together!
           </p>
         </div>

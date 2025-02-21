@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import profilePic from "./images/pic.jpg"; // Import your profile image
+import computerImage from "./images/Computer1.gif"; // Import the 3D computer image
 import resume from "./images/Resume_1.00.pdf"; // Import your resume
 import { Sun, Moon, Menu } from "lucide-react"; // Using Lucide icons
 
@@ -87,10 +87,11 @@ const Home = () => {
 
       {/* Profile Content */}
       <div className="text-center">
+        {/* Replace profile picture with 3D computer image */}
         <img
-          src={profilePic}
-          alt="Raju S"
-          className="w-32 h-32 rounded-full mx-auto mb-4"
+          src={computerImage}
+          alt="3D Computer"
+          className="w-48 h-65 mx-auto mb-4 animate-float" // Add animation
         />
         <h1 className="text-6xl font-bold text-gray-900 dark:text-white">Hi, I'm Raju S</h1>
         <p className="text-2xl mt-4 text-gray-600 dark:text-gray-300">
@@ -108,7 +109,7 @@ const Home = () => {
           download="resume.pdf"
           className="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition"
         >
-        Resume
+          Resume
         </a>
       </div>
     </section>

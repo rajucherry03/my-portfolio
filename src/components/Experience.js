@@ -8,7 +8,7 @@ const Experience = () => {
       duration: "June 2024 – July 2024",
       location: "Hyderabad, Telangana",
       description: [
-        "Developed a fully responsive website using React with separate Admin and User navigation for the Employee Management System (EMS) project.",
+        "Developed a fully responsive website using React with separate Admin and User navigation for the EMS project.",
         "Designed distinct functionalities for Admin and User.",
       ],
     },
@@ -40,7 +40,7 @@ const Experience = () => {
             >
               <h3 className="text-2xl font-bold text-blue-400">{exp.role} | {exp.company}</h3>
               <p className="text-gray-400 mt-1">{exp.duration} | {exp.location}</p>
-              <ul className="list-disc list-inside mt-4 text-gray-300 text-left">
+              <ul className="list-disc list-inside mt-4 text-gray-300 text-justify"> {/* Added text-justify */}
                 {exp.description.map((desc, i) => (
                   <li key={i}>{desc}</li>
                 ))}

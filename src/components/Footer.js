@@ -20,7 +20,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="text-2xl" />
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/rajucherry03"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white"

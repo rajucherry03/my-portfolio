@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "./images/ll.png";
+import logo from "./images/pic.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
           <img 
             src={logo} 
             alt="Logo" 
-            className="h-14 w-14 rounded-full border-2 border-white shadow-lg" // Increased size and made it round
+            className="h-10 w-10 rounded-full border-2 border-white shadow-lg" // Increased size and made it round
           />
         </a>
 
