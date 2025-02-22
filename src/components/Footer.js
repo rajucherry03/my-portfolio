@@ -28,7 +28,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faGithub} className="text-2xl" />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://twitter.com/rajus1156"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white"
